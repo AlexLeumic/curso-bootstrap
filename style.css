@@ -1,0 +1,296 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 70px;
+}
+
+p {
+  font-size: 18px;
+  color: #999999;
+  line-height: 1.8;
+  margin-bottom: 0;
+}
+
+h5 {
+  margin-bottom: 0px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+section {
+  padding: 120px 0;
+}
+
+h2 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.margintop-xs {
+  margin-top: 15px;
+}
+.margintop-sm {
+  margin-top: 30px;
+}
+.margintop-lg {
+  margin-top: 60px;
+}
+
+.btn {
+  font-size: 14px;
+  padding: 15px 26px;
+  min-width: 160px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.btn-light {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #ffffff;
+}
+
+.btn-dark {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border: 2px solid #1a1a1a;
+}
+
+.btn-light2 {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.btn ion-icon {
+  font-size: 15px;
+  margin-left: 15px;
+  margin-top: auto;
+  caret-color: #1273da;
+}
+
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  min-height: 100px;
+}
+
+.nav-link {
+  color: #1a1a1a;
+}
+.nav-link:hover {
+  color: #832c16;
+}
+
+.logo-brand {
+  min-width: 75px;
+  max-width: 75px;
+}
+
+.navbar-toggler {
+  font-size: 40px;
+}
+.navbar-toggler:focus {
+  outline: none;
+}
+
+#hero {
+  background-image: url(images/hero.jpg);
+  background-repeat: cover;
+  padding-top: 90px;
+  min-height: 700px;
+  color: #ffffff;
+}
+
+#hero p {
+  color: #ffffff;
+}
+
+.content-center {
+  max-width: 800px;
+  margin: 0 auto 60px auto;
+  text-align: center;
+}
+
+.portafolio-container {
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 2px;
+}
+
+.member-container {
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 2px;
+}
+
+.portafolio-container img {
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.member-container img {
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.portafolio-container:hover img {
+  -moz-transform: scale (1.2);
+  -webkit-transform: scale (1.2);
+  transform: scale(1.2);
+}
+
+.member-container:hover img {
+  -moz-transform: scale (1.2);
+  -webkit-transform: scale (1.2);
+  transform: scale(1.2);
+}
+
+.portafolio-details {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  z-index: 9000;
+}
+
+.member-details {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  z-index: 9000;
+}
+
+.btn ion-icon {
+  color: #7e0e5f;
+}
+.portafolio-details h2 {
+  margin-bottom: 0px;
+}
+
+.portafolio-details a h2,
+.portafolio-details a p {
+  color: #ffffff;
+}
+
+.sobrenosotros-details p {
+  color: #000000;
+}
+
+.sobrenosotros-details h2 b {
+  color: #290303;
+}
+
+.member-container {
+  position: relative;
+  margin: 10px 0;
+}
+
+.member-details {
+  position: absolute;
+  color: #000000;
+  bottom: 0px;
+  left: 20px;
+}
+
+.member-details span {
+  font-size: 14px;
+}
+
+.instagram ion-icon {
+  font-size: 15px;
+  color: #8d348a;
+}
+
+.twitter ion-icon {
+  font-size: 15px;
+  color: #1c8cc1;
+}
+
+.facebook ion-icon {
+  font-size: 15px;
+  color: #0033ffd0;
+}
+
+.youtube ion-icon {
+  font-size: 15px;
+  color: #ff0000a1;
+}
+
+.member-details ion-icon {
+  padding: 0 5px;
+}
+
+.precios-container {
+  margin: 15px 0;
+}
+
+.planes {
+  padding: 50px 80px;
+  border-radius: 2px;
+  min-width: 450px;
+}
+
+.plan-light {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  color: #000000;
+}
+
+.plan-dark {
+  background-color: #000000;
+  border: 2px solid #000000;
+  color: #ffffff;
+}
+
+.planes h2 {
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.planes ul {
+  list-style-type: square;
+}
+
+.planes span {
+  font-size: 20px;
+}
+.full-width {
+  width: 100px;
+}
+
+.text-dark {
+  color: #412a08d0;
+}
+
+.bg-light-gray {
+  background-color: #d2d2d2;
+}
+
+@media (min-width: 576px) {
+  h1 {
+    font-size: 40px;
+    line-height: normal;
+  }
+}
+
+@media (min-width: 768px) {
+  ...;
+}
+
+@media (min-width: 992px) {
+  ...;
+}
+
+@media (min-width: 1200px) {
+  ...;
+}
